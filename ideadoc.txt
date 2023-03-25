@@ -1,0 +1,21 @@
+So, space invaders, right?
+
+The concept is pretty simple, a little thing moving across the bottom of the screen, shoots pellets at enemies above it
+The real question is the implementation, and tbh, I have no idea what I'm doing.
+
+It'd be fun to go super overboard with it, say a GameObject class, which both the player and enemy classes inherit from,
+and there can be multiple types of enemies, too. They can all have their own classes too.
+
+Something along the lines of:
+	GameObject
+	    |  \
+	   / \ Bullet
+      Player Enemy
+      	        |
+	      /  \
+   BulletShooter |
+	    RocketShooter
+
+Very rough concept. Idk about any of the specifics yet. Also, what seperates Player from Enemy?
+
+I guess I can try my hand at spritework with this one too. Shouldn't be too hard.
